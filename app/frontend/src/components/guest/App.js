@@ -1,13 +1,12 @@
-import logo from './plantmatch_logo.png';
-import Initial from '../src/components/guest/App.js'
-import './App.css';
+import logo from '../../plantmatch_logo.png';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
 
-        <Initial/>
+        
+        <img src={logo} className="App-logo-small" alt="plantmatch_logo" />
 
 
       </header>
