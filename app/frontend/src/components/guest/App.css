@@ -1,0 +1,72 @@
+.wrapper,
+html,
+body {
+	height: 100vh;
+	margin: 0;
+}
+  
+.wrapper {
+	display: flex;
+	flex-direction: column;
+    flex: 1;
+}
+  
+.nav {
+    background-color: lightgoldenrodyellow;
+    flex: 1;
+}
+  
+.main {
+    background-color:lightgreen;
+    flex: 9;
+}
+
+.app-logo-small {
+    height: 15vmin;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.splitter {
+    display: flex;
+    flex-direction: 'row';
+    flex: 1;
+    height: 100%;
+}
+
+.upload {
+    display: flex;
+    background-color: lightgoldenrodyellow;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.data {
+    background-color: lightgoldenrodyellow;
+    flex: 1;
+}
+
+.match {
+    background-color: lightgoldenrodyellow;
+    flex: 1;
+}
+
+.table {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 10x0px;
+}
+
+.labelForm {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 10x0px;
+}
+
+.match {
+    flex: 1.3;
+}
