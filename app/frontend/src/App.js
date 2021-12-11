@@ -1,4 +1,4 @@
-import React, { Component }  from 'react';
+import React from 'react';
 import Initial from '../src/components/guest/App.js'
 import './App.css';
 

@@ -87,6 +87,7 @@ class App extends Component {
                                         name="tags"
                                         placeholder="add new labels"
                                         label="Labels"
+                                        background-color="green"
                                     />
                                 </div>
                             </div>

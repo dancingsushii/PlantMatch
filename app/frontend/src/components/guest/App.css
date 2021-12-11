@@ -12,7 +12,7 @@ body {
 }
   
 .nav {
-    background-color: lightgoldenrodyellow;
+    background-color: #f9e6ae;
     flex: 1;
 }
   
@@ -37,19 +37,19 @@ body {
 
 .upload {
     display: flex;
-    background-color: lightgoldenrodyellow;
+    background-color: #f9e6ae;
     flex: 1;
     align-items: center;
     justify-content: center;
 }
 
 .data {
-    background-color: lightgoldenrodyellow;
+    background-color: #f9e6ae;
     flex: 1;
 }
 
 .match {
-    background-color: lightgoldenrodyellow;
+    background-color: #f9e6ae;
     flex: 1;
 }
 

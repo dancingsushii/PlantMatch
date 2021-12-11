@@ -4,6 +4,7 @@ import Chip from "@material-ui/core/Chip";
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
 import Downshift from "downshift";
+import { lightGreen } from "@mui/material/colors";
 
 const useStyles = makeStyles(theme => ({
   chip: {
@@ -90,6 +91,7 @@ export default function TagsInput({ ...props }) {
                       label={item}
                       className={classes.chip}
                       onDelete={handleDelete(item)}
+                      style={{backgroundColor:'yellowgreen'}}
                     />
                   )),
                   onBlur,
